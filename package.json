@@ -1,0 +1,51 @@
+{
+  "name": "mediator-channel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "eslint . --max-warnings 0",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@aws-sdk/credential-providers": "latest",
+    "@mongodb-js/zstd": "latest",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-radio-group": "latest",
+    "@radix-ui/react-scroll-area": "latest",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-toast": "^1.2.15",
+    "@vercel/analytics": "latest",
+    "bcryptjs": "^3.0.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "gcp-metadata": "latest",
+    "jose": "^6.1.2",
+    "kerberos": "latest",
+    "lucide-react": "^0.454.0",
+    "mongodb": "latest",
+    "mongodb-client-encryption": "latest",
+    "next": "16.0.3",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "snappy": "latest",
+    "socks": "latest",
+    "swr": "latest",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "latest",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^22",
+    "@types/react": "19.2.5",
+    "@types/react-dom": "19.2.3",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.3",
+    "postcss": "^8.5",
+    "tailwindcss": "4.1.17",
+    "typescript": "^5"
+  }
+}
